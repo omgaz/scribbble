@@ -1,0 +1,9 @@
+{
+  "name": "scribbble",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "requirejs": "latest",
+    "express": "3.x"
+  }
+}
