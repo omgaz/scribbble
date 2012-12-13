@@ -16,8 +16,7 @@ function bootApplication(app) {
     app.use(express.static(__dirname + '/public'));
 
     app.use(express.logger(':method :url :status'));
-    // show error on screen. False for all envs except development
-    // settmgs for custom error handlers
+    
     app.set('showStackError', false);
 
     // routes are last to give priority to static files
