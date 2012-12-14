@@ -2,6 +2,9 @@ scribbble v0.0.1
 ================
 A node.js app that will be used to post copy, leave feedback and vote. Very simple interface. Registration is optional and managed through Twitter, Facebook or Google (OAuth).
 
+An early screen:
+![rough prototype](http://omgaz.co.uk/img/scribbble.png "Rough Prototype")
+
 Proposed features and functionality
 -----------------------------------
  - OAuth login
