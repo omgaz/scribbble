@@ -69,19 +69,9 @@ section.list h3 {
 }
 
 .heroes .hero {
-  width: 30%;
+  width: 33%;
   float: left;
   padding: 10px 0;
-}
-
-.heroes .seperator {
-  min-height: 75px;
-  min-width: 4.5%;
-  float: left;
-  line-height: 75px;
-  color: #4EA6EA;
-  font-weight: bold;
-  font-size: 20px;
 }
 
 section.list {

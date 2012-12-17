@@ -8,7 +8,7 @@ exports.initialise = function(app){
 function initialiseRoutes(app) {
 
   app.get("/", function (req, res){
-
+    res.render('index', { pageTitle: 'Home' });
   });
 
   app.get("/create", function (req, res){
