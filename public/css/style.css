@@ -111,13 +111,17 @@ ul.copy10 {
 
 ul.copy10 > li {
   padding: 10px;
-  border-left: 1px solid #4EA6EA;
-  border-right: 1px solid #4EA6EA;
-  border-bottom: 1px solid #4EA6EA;
+  margin: 20px 0;
+  background-color: #4EA6EA;
+  color: white;
+  position: relative;
 }
 
-ul.copy10 > li:first-child {
-  border-top: 1px solid #4EA6EA;
+ul.copy10 > li a.add {
+  height: 30px;
+  width: 30px;
+  font-size: 30px;
+  line-height: 25px;
 }
 
 footer {
