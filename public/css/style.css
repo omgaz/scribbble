@@ -117,10 +117,43 @@ ul.copy10 > li {
   position: relative;
 }
 
+ul.copy10 > li > h4 {
+  float: left;
+  margin-bottom: 10px;
+  max-width: 530px;
+}
+
+ul.copy10 > li > .rating {
+  float: right;
+}
+
 ul.copy10 > li a.add {
   height: 30px;
   width: 30px;
   font-size: 30px;
+  line-height: 25px;
+}
+
+ul.copy10 > li > p {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  clear: both;
+}
+
+ul.tags {
+  margin-top: 10px;
+  clear: both;
+}
+
+ul.tags > li {
+  display: inline;
+  margin-right: 10px;
+  background-color: white;
+  color: #00A1F1;
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
   line-height: 25px;
 }
 

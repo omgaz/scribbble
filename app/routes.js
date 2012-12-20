@@ -1,4 +1,5 @@
-var express = require('express');
+var mongoose = require('mongoose'),
+  Copy       = mongoose.model('Copy');
 
 exports.initialise = function(app){
   initialiseRoutes(app);

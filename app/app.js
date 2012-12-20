@@ -5,6 +5,9 @@ var express = require('express'),
 // Bootstrap application settings
 require('./settings').boot(app);
 
+// Models
+require('./models');
+
 // Set up routes
 require('./routes').initialise(app);
 
