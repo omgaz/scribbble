@@ -112,8 +112,7 @@ ul.copy10 {
 ul.copy10 > li {
   padding: 10px;
   margin: 20px 0;
-  background-color: #4EA6EA;
-  color: white;
+  background-color: #D2D2D2;
   position: relative;
 }
 
@@ -121,6 +120,7 @@ ul.copy10 > li > h4 {
   float: left;
   margin-bottom: 10px;
   max-width: 530px;
+  color: #F65314;
 }
 
 ul.copy10 > li > .rating {
