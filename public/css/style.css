@@ -119,14 +119,24 @@ ul.copy10 > li {
 ul.copy10 > li > h4 {
   float: left;
   margin-bottom: 10px;
-  max-width: 530px;
-  color: #F65314;
+  max-width: 510px;
 }
 
-ul.copy10 > li > .rating {
-  float: right;
+ul.copy10  .rating-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: bold;
 }
 
+ul.copy10  .rating {
+  margin: 0 10px;
+}
+
+ul.copy10  .rate-up, ul.copy10 .rate-down {
+  font-weight: bold;
+  color: #4EA6EA;
+}
 ul.copy10 > li a.add {
   height: 30px;
   width: 30px;
@@ -148,8 +158,8 @@ ul.tags {
 ul.tags > li {
   display: inline;
   margin-right: 10px;
-  background-color: white;
-  color: #00A1F1;
+  color: white;
+  background-color: #4EA6EA;
   padding: 5px;
   font-size: 12px;
   text-align: center;
